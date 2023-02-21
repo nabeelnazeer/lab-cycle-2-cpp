@@ -1,4 +1,5 @@
 #include <iostream>
+#include<cmath>
 class vector
 {
 private:
@@ -19,6 +20,8 @@ public:
         y = b;
         z = c;
         magnt = (x * x) + (y * y) + (z * z);
+        int sample= sqrt(magnt);
+        magnt= sample;
     }
     void display()
     {
@@ -51,6 +54,16 @@ public:
         else
         {
             std::cout << "the two vectors are unequal" << std::endl;
+        }
+    }
+    void operator!=(vector &a){
+        std::cout<<"overloading != operator"<<std::endl;
+        if (magnt!=a.magnt){
+            std::cout<<"vector 1 and vector v2 are unequal vectors"<<std::endl;
+            
+        }
+        else{
+            std::cout<<"vector 1 and vector 2 are equal vectors"<<std::endl;
         }
     }
     void operator>(vector &a)
@@ -137,6 +150,7 @@ int main()
     first >= second;
     first < second;
     first <= second;
+    first != second;
 
     return 0;
 }
