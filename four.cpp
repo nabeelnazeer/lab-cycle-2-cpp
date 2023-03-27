@@ -52,6 +52,7 @@ public:
     }
     matrix operator+(matrix &b)
     {
+        cout<<"adding matrix 1 and matrix 2"<<endl;
         matrix c(b.rows, b.columns);
         for (int i = 0; i < b.rows; i++)
         {

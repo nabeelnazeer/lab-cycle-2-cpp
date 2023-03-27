@@ -4,18 +4,18 @@ const int size = 3;
 class Vector
 {
 private:
-    int value[];
+    int value[size];
 
 public:
     Vector() {}
     friend ostream &operator<<(ostream &os, Vector &a);
     friend istream &operator>>(istream &is, Vector &a);
-    friend Vector &operator*(Vector &a, Vector &b);
-    friend Vector &operator*(int k, Vector &a);
+    friend Vector operator*(Vector &a, Vector &b);
+    friend Vector operator*(int k, Vector &a);
 };
 istream &operator>>(istream &is, Vector &a)
 {
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < size; i++)
     {
         is >> a.value[i];
     }
@@ -42,19 +42,19 @@ ostream &operator<<(ostream &os, Vector &a)
     }
     return os;
 }
-Vector &operator*(Vector &a, Vector &b)
+Vector operator*(Vector &a, Vector &b)
 {
     Vector c;
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < size; i++)
     {
         c.value[i] = a.value[i] * b.value[i];
     }
     return c;
 }
-Vector &operator*(int k, Vector &a)
+Vector operator*(int k, Vector &a)
 {
     Vector c;
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < size; i++)
     {
         c.value[i] = k * a.value[i];
     }
