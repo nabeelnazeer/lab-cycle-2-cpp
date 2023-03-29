@@ -2,6 +2,95 @@
 # C++ Lab Projects
 
 Welcome to my C++ Lab repository! This repository contains all of my C++ projects that I've worked on during my studies. Below you'll find a brief overview of each project and a link to the code.
+# lab cyle 1
+lab cycle 1: total 12 questions
+## question 1
+
+Write a C++ program to calculate the grades of a list of students with attributes
+(Name, Roll_no, Marks of 3 subjects) using class with member functions
+input(), calcGrade(), display().
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/one.cpp)
+
+## question 2
+
+Write a C++ program to calculate the area of different shapes like Rectangle,
+Square etc (at least 5 shapes) using overloaded function area().
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/two.cpp)
+
+## question 3
+
+Write a C++ program using classes to perform bank transaction for n customers
+(cust_name, acc_no, acc_type, balance). The program should be menu driven
+and it should have the following menus like adding new account, withdraw
+(keep a min balance of 500), deposit, balance enquiry and account statement
+(cust_name, acc_no, acc_type, balance).
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/three.cpp)
+
+## question 4
+
+Write a C++ program to demonstrate the order of execution of constructors &
+destructors as well as the dynamic memory allocation of a 2-D matrix.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/four.cpp)
+
+## question 5
+
+Write a C++ program to demonstrate the order of execution of constructors &
+destructors as well as the dynamic memory allocation of a 2-D matrix.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/five.cpp)
+
+## question 6
+
+Create a class TIME with members hours, minutes, seconds. Take input, add
+two time objects by passing objects to function and display result.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/six.cpp)
+
+## question 7
+
+Write a C++ program to implement a class MATRIX with member functions such
+as matrix_add, matrix_mult, matrix_transpose and matrix_trace.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/seven.cpp)
+
+## question 8
+
+Write a program to perform addition of two complex numbers using constructor
+overloading. The first constructor which takes no argument is used to create
+objects which are not initialized, second which takes one argument is used to
+initialize real and imaginary parts to equal values and third which takes two
+arguments is used to initialize real and imaginary parts to two different values.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/eight.cpp)
+
+## question 9
+
+Write a C++ program to design a class having static member function named
+showcount() which has the property of displaying the number of objects created
+of the class.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/nine.cpp)
+
+## question 10
+
+Write a C++ program using class to process shopping list for a Departmental
+Store. The list include details such as the code, name, price and quantity of
+each item and perform the operations like adding & deleting items to the list
+and printing the total value of a purchase order.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/ten.cpp)
+
+## question 11
+
+Write a Program to swap private data members of classes named as class_1,
+class_2 using friend function.
+
+[link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%201/ten.cpp)
+# lab cycle 2
 
 ## Project 1: operator overloading
 
@@ -50,7 +139,7 @@ test class should be inherited by a result class having the functionality to add
 the scores and display the final result for a student. Demonstrate the concept of
 Virtual base class on Hybrid inheritance.
 
-[question 6]()
+[question 6](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/six.cpp)
 
 ## Project 7: implementation of constructors in inheritence
 
