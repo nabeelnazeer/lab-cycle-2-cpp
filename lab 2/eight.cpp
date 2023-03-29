@@ -86,6 +86,8 @@ int main(){
         else{
             break;
         }
+
     }
+    cout<<"THANK YOU"<<endl;
 }
 
