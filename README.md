@@ -8,7 +8,7 @@ Welcome to my C++ Lab repository! This repository contains all of my C++ project
 Write a C++ program to overload ==, !=, <, <=, > and >= operators as
 member operator functions for a vector object.
 
-[question 1](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/one.cpp)
+[question 1](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/one.cpp)
 
 ## Project 2: operartor overloading to add and multiply complex numbers
 
@@ -16,14 +16,14 @@ Write a C++ program to design a class representing complex numbers and
 having the functionality of performing addition & multiplication of two complex
 numbers using operator overloading (Use friend operator functions).
 
-[question 2](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/two.cpp)
+[question 2](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/two.cpp)
 
 ## Project 3: dot product and display vectors
 
 Write a C++ program to overload operators like *, <<, >> using friend
 function. The following overloaded operators should work for a class vector.
 
-[question 4](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/three.cpp)
+[question 4](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/three.cpp)
 
 ## Project 4: matrix multiplication and addition by overloading operators
 
@@ -32,14 +32,14 @@ matrices of different dimensions. Also overload the operator for addition and
 multiplication of matrices. Use double pointers in your program to dynamically
 allocate memory for the matrices.
 
-[question 4](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/four.cpp)
+[question 4](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/four.cpp)
 
 ## Project 5: multiple and multilevel inheritence
 
 Write a C++ program to demonstrate the concept of Multiple and Multilevel
 inheritance including constructors with parameters.
 
-[question 5](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/five.cpp)
+[question 5](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/five.cpp)
 
 ## Project 6: virtual base class on hybrid inheritence
 
@@ -59,7 +59,7 @@ order in which they are called when the classes are inherited. Use three classes
 named alpha, beta and gamma such that alpha and beta are base classes and
 gamma is a derived class inheriting alpha & beta.
 
-[Link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/seven.cpp)
+[Link to code](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/seven.cpp)
 
 ## Project 8: runtime polymorphism
 
@@ -68,7 +68,7 @@ Rectangle with member functions to get the values for finding corresponding
 areas and print the same. Utilize the concept of Abstract Class and Runtime
 polymorphism to solve the problem.
 
-[question 8](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/eight.cpp)
+[question 8](https://github.com/nabeelnazeer/lab-cycle-2-cpp/blob/master/lab%202/eight.cpp)
 
 Feel free to explore the code and let me know if you have any questions or feedback!
 
