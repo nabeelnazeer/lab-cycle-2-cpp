@@ -13,7 +13,7 @@ class student{
 
     }
     void put_details(){
-        cout<<"student name : "<<name;
+        cout<<"student name : "<<name<<endl;
     }
 };
 class test:public virtual student{
@@ -86,10 +86,10 @@ int main(){
     cin>>roll;
 
     while(true){
-        cout<<"enter overall marks acquired for academics : "<<endl;
+        cout<<"enter overall marks acquired for academics (out of 200) : "<<endl;
         cin>>marks;
         if (marks>200){
-            cout<<"invalid input"<<endl;
+            cout<<"invalid input : enter aarks out of 200"<<endl;
         }
         else{
             cout<<"marks entered : "<<marks<<endl;
@@ -97,10 +97,10 @@ int main(){
         }
     }
     while(true){
-        cout<<"enter overall score for sports : "<<endl;
+        cout<<"enter overall score for sports (out of 200) : "<<endl;
         cin>>score;
         if (score>200){
-            cout<<"invalid input"<<endl;
+            cout<<"invalid input : enter marks out of 200"<<endl;
         }
         else{
             cout<<"score entered : "<<score<<endl;
